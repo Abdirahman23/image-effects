@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+h2{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.imgs{
+    margin-top: 20px;
+    display: flex  ;
+    text-align: center;
+    justify-content: center;
+    margin-right: 50px;
+    width: 100%;
+    height: 50vh;
+
+  
+    
+}
+
+
+
+
+:root{
+    --spacing : 10px;
+    --blur : 1px;
+    --base : yellow;
+    
+     /* --rotate : 0deg;  */
+   }
+
+
+ h2 .h1{color: var(--base)}
+
+img{
+padding: var(--spacing);
+ background-color: var(--base); 
+filter: blur(var(--blur));
+   /* transform: rotate(var(--rotate));     */
+}
+
+
+
